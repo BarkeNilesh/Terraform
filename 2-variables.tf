@@ -8,3 +8,7 @@ variable "age" {
     default = "25"
   
 }
+variable "books" {
+    type = list
+    default = [ "English","Marathi","Hindi"]   
+}
